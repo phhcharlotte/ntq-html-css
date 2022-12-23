@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dasboard-Odoo</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/contents.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/04842cdd04.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="nav">
+          <ul class="nav-left">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Tax Finalization</a></li>
+            <li><a href="#">Calendar</a></li>
+            <li><a href="#">Working Timesheet</a></li>
+            <li><a href="#">Appraisals</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Timesheet</a></li>
+            <li><a href="#">Employees</a></li>
+            <li><a href="#">Assets</a></li>
+            <li><a href="#">Helpdesk</a></li>
+            <li><a href="#">Personal Info</a></li>
+            <li><a href="#">More</a></li>
+          </ul>
+          <ul class="nav-right">
+            <li>
+              <a href=""><i class="fa-regular fa-clock"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-comments"></i></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="myname"
+                style="display: flex; justify-content: center"
+                ><img class="avt" src="./img/avata.jpg" />
+                <span class="infor">Phạm Huy Hoàng</span></a
+              >
+            </li>
+            <li>
+              <label for="nav-input" id="icon">
+                <i class="fa fa-bars"></i>
+              </label>
+            </li>
+          </ul>
+          <input
+            type="checkbox"
+            hidden
+            name=""
+            class="nav_input"
+            id="nav-input"
+          />
+          <label for="nav-input" class="over"></label>
+          <nav class="nav-reponsive">
+            <label for="nav-input" class="nav-close" style="font-size: 20px">
+              <i class="fa-solid fa-xmark"></i>
+            </label>
+
+            <ul class="nav-reponsive-list">
+              <li><a href="#" class="nav-list">Dashboard</a></li>
+              <li><a href="#" class="nav-list">Tax Finalization</a></li>
+              <li><a href="#" class="nav-list">Calendar</a></li>
+              <li><a href="#" class="nav-list">Working Timesheet</a></li>
+              <li><a href="#" class="nav-list">Appraisals</a></li>
+              <li><a href="#" class="nav-list">Project</a></li>
+              <li><a href="#" class="nav-list">Timesheet</a></li>
+              <li><a href="#" class="nav-list">Employees</a></li>
+              <li><a href="#" class="nav-list">Assets</a></li>
+              <li><a href="#" class="nav-list">Helpdesk</a></li>
+              <li><a href="#" class="nav-list">Personal Info</a></li>
+              <li><a href="#" class="nav-list">More</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="space"></div>
+      </div>
+
+      <div class="wrapper-contents">
+        <div class="sidenav">
+          <div class="img-icon">
+            <img alt="" src="./img/download.png" />
+          </div>
+          <div class="employee-name">
+            <h2 class="name1">Phạm Huy Hoàng</h2>
+
+            <p class="text-light">Internship</p>
+
+            <p class="text-light">Intern</p>
+          </div>
+          <div class="employee-details">
+            <div class="employee-details-top">
+              <div class="employee-gender">
+                <p>
+                  <i
+                    class="fa fa-mars"
+                    style="color: #f1f1f1 !important; font-size: 13px"
+                  ></i>
+                </p>
+                <p class="text-light">Nam</p>
+              </div>
+              <div class="employee-birthdays">
+                <p class="text-light" style="color: #b6b6b6 !important">DOB</p>
+                <p style="color: #b6b6b6 !important">02/09/2001</p>
+              </div>
+            </div>
+
+            <div class="employee-start-work-date">
+              <p class="text-light">Đã vào làm</p>
+              <p class="text-light">5 ngày</p>
+            </div>
+          </div>
+        </div>
+        <div class="contents">
+          <marquee class="marquee" direction="left"
+            >Xin chào Phạm Huy Hoàng, chúc bạn có một ngày làm việc thật vui vẻ
+            và hiệu quả !</marquee
+          >
+          <div class="top-content">
+            <div class="card">
+              <div class="col-1">
+                <div class="title">CHỜ PHÊ DUYỆT</div>
+                <button class="btn1">
+                  <div class="btn2">
+                    <div>Xin Nghỉ</div>
+                    <div>0</div>
+                  </div>
+                </button>
+
+                <button class="btn1">
+                  <div class="btn2">
+                    <div>Đi muộn/Về sớm</div>
+                    <div>0</div>
+                  </div>
+                </button>
+
+                <button class="btn1">
+                  <div class="btn2">
+                    <div>Xin WFH</div>
+                    <div>0</div>
+                  </div>
+                </button>
+
+                <button class="btn1">
+                  <div class="btn2">
+                    <div>Chám công WFH</div>
+                    <div>0</div>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="col-2">
+                <div class="title">VIỆC CẦN LÀM</div>
+                <button class="btn1">
+                  <div class="btn2">
+                    <div>Duyệt xin nghỉ</div>
+                    <div>0</div>
+                  </div>
+                </button>
+                <button class="btn1">
+                  <div class="btn2">
+                    <div>Duyệt đi muộn/về sớm</div>
+                    <div>0</div>
+                  </div>
+                </button>
+                <button class="btn1">
+                  <div class="btn2">
+                    <div>Duyệt xin WFH</div>
+                    <div>0</div>
+                  </div>
+                </button>
+                <button class="btn1">
+                  <div class="btn2">
+                    <div>Duyệt chấm công WFH</div>
+                    <div>0</div>
+                  </div>
+                </button>
+                <button class="btn1">
+                  <div class="btn2">
+                    <div>Đánh giá hợp đồng</div>
+                    <div>0</div>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="col-3">
+                <div class="title">THÔNG TIN KHÁC</div>
+                <button class="btn-col3">
+                  <div class="btn2">
+                    <div>Dự án</div>
+                    <div>></div>
+                  </div>
+                </button>
+                <button class="btn-col3">
+                  <div class="btn2">
+                    <div>Làm thêm giờ</div>
+                    <div>></div>
+                  </div>
+                </button>
+                <button class="btn-col3">
+                  <div class="btn2">
+                    <div>Chấm công làm thêm giờ</div>
+                    <div>></div>
+                  </div>
+                </button>
+                <button class="btn-col3">
+                  <div class="btn2">
+                    <div>Timesheet gửi khách hàng</div>
+                    <div>></div>
+                  </div>
+                </button>
+                <button class="btn-col3">
+                  <div class="btn2">
+                    <div>Xem phiếu lương</div>
+                    <div>></div>
+                  </div>
+                </button>
+                <button class="btn-col3">
+                  <div class="btn2">
+                    <div>Uỷ quyền quyết toán thuế</div>
+                    <div>></div>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div class="table-content">
+              <div class="col-4">
+                <div
+                  class="title-header"
+                  style="background-color: rgb(95, 158, 160)"
+                >
+                  ĐIỂM DANH
+                </div>
+                <div class="scoll_meet">
+                  <table class="db_table" style="width: 100%">
+                    <tbody>
+                      <tr style="background-color: rgb(230, 243, 243)">
+                        <th class="title-attendance">Ngày</th>
+                        <th class="title-attendance">Giờ vào</th>
+                        <th class="title-attendance">Giờ về</th>
+                      </tr>
+                      <tr>
+                        <td class="text">
+                          <div class="media">19-12-2022</div>
+                        </td>
+                        <td class="text"><div class="media">08:26</div></td>
+                        <td class="text"><div class="media">17:48</div></td>
+                      </tr>
+                      <tr>
+                        <td class="text">
+                          <div class="media">19-12-2022</div>
+                        </td>
+                        <td class="text"><div class="media">08:26</div></td>
+                        <td class="text"><div class="media">17:48</div></td>
+                      </tr>
+                      <tr>
+                        <td class="text">
+                          <div class="media">19-12-2022</div>
+                        </td>
+                        <td class="text"><div class="media">08:26</div></td>
+                        <td class="text"><div class="media">17:48</div></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-content">
+            <div class="table-content">
+              <div class="col-5">
+                <div class="title-header" style="background-color: #aecdf9">
+                  NGHỈ PHÉP
+                </div>
+
+                <table style="width: 100%">
+                  <tbody>
+                    <tr style="background-color: rgb(231, 240, 253)">
+                      <th class="title-leave">Loại nghỉ</th>
+                      <th class="title-leave">Đã dùng</th>
+                      <th class="title-leave">Còn lại</th>
+                    </tr>
+                    <tr>
+                      <td><div class="media">Nghỉ không lương</div></td>
+                      <td><div class="media">0</div></td>
+                      <td><div class="media">60</div></td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <div class="media">
+                          Nghỉ vì việc gia đình (Bố, mẹ, vợ, chồng mất)
+                        </div>
+                      </td>
+                      <td><div class="media">0</div></td>
+                      <td><div class="media">3</div></td>
+                    </tr>
+
+                    <tr>
+                      <td><div class="media">Nghỉ cưới</div></td>
+                      <td><div class="media">0</div></td>
+                      <td><div class="media">3</div></td>
+                    </tr>
+
+                    <tr>
+                      <td><div class="media">Nghỉ bù OT</div></td>
+                      <td><div class="media">0</div></td>
+                      <td><div class="media">0</div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="table-content">
+              <div class="col-6">
+                <div class="title-header" style="background-color: #87ceeb">
+                  LỊCH HỌP HÔM NAY
+                </div>
+
+                <div>
+                  <p class="text-color display-6" style="padding-top: 15%"></p>
+                  <center style="font-size: 16px">
+                    Bạn không có lịch họp hôm nay!
+                    <br />
+                    Ấn vào "+" để tạo lịch họp.
+                    <br />
+                    <h1>
+                      <button class="meet_hover">+</button>
+                    </h1>
+                  </center>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="table-content">
+              <div class="col-7">
+                <div class="title-header" style="background-color: #afdba9">
+                  SINH NHẬT THÀNH VIÊN
+                </div>
+
+                <div class="media">
+                  <img src="./img/download.png" />
+                  <div class="media-body">
+                    <h2 style="font-size: 13px">Bùi Hoàng Hiệp</h2>
+                    <p style="font-size: 13px">PHP</p>
+                    <p style="font-size: 13px">03/01</p>
+                  </div>
+                </div>
+                <div class="media">
+                  <img src="./img/download.png" />
+                  <div class="media-body">
+                    <h2 style="font-size: 13px">Bùi Hoàng Hiệp</h2>
+                    <p style="font-size: 13px">PHP</p>
+                    <p style="font-size: 13px">03/01</p>
+                  </div>
+                </div>
+                <div class="media">
+                  <img src="./img/download.png" />
+                  <div class="media-body">
+                    <h2 style="font-size: 13px">Bùi Hoàng Hiệp</h2>
+                    <p style="font-size: 13px">PHP</p>
+                    <p style="font-size: 13px">03/01</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
